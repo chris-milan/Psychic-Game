@@ -1,0 +1,33 @@
+body {
+    font-family: 'Della Respira', serif;
+    font-size: 28px;
+    background-image: url(../images/mind-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    position: fixed;
+}
+
+.container {
+    background-image: url(../images/subtle_white_feathers.png);
+    background-size:440px 440xpx;
+    opacity:0.8;
+    color:#ec537c;
+    margin: 12em 2em;
+    padding: 2em;
+    text-align: center;
+    line-height: 50px;
+    border: 5px inset magenta;
+    width: 90% fixed;
+    min-height: 470px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 33px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}

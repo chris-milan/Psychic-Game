@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psychic Game | Chris Milan</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+</head>
+<body>
+    <audio id="music" autoplay loop>
+      <source src="assets/audio/Brian_Eno-Thursday_Afternoon.m4a") type="audio/mp4" />
+    </audio>
+    
+<div class="container">
+    <h1>The Psychic Game</h1>
+        <h2><p>Guess what letter I'm thinking of...</p></h2>
+        <p>Wins:&nbsp;<a id="Wins"></a></p>
+        <p>Losses:&nbsp;<a id="Losses"></a></p>
+        <p>Guesses Left:&nbsp;<a id="Guesses"></a></p>
+        <p><h2>Your Guesses so far:&nbsp;</h2><a id="SoFar"></a></p>
+</div>
+  
+</body>
+      <script src="assets/javascript/game.js">
+          var audio= document.getElementById("music");
+          audio.volume = 0.2;
+
+        </script>
+   
+</html>
